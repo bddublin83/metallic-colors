@@ -1,10 +1,5 @@
-app/page.tsx
-import CompleteLandingPage from "@/complete-landing-page"
+import CompleteLandingPage from "@/components/complete-landing-page"
 
 export default function Home() {
-  return (
-    <main className="min-h-screen">
-      <CompleteLandingPage />
-    </main>
-  )
+  return <CompleteLandingPage />
 }
